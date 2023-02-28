@@ -1,3 +1,7 @@
+package unit02
+
+// Compound Interest problem
+
 fun main() {
 // Variables
     var amount: Double // Amount in the account
@@ -25,3 +29,10 @@ fun main() {
 // Display the result.
     println("After ${years.toInt()} years you will have $%.2f.".format(amount))
 }
+
+// Pseudocode:
+// 1. Declare variables for the principal, interest rate, number of times compounded, and number of years.
+// 2. Ask the user to input the necessary values and store them in the corresponding variables.
+// 3. Convert the interest rate to a decimal.
+// 4. Calculate the ending balance using the formula for compound interest.
+// 5. Display the result.
