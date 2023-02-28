@@ -1,10 +1,7 @@
 package unit02
 
-/**
+// Star Pattern
 
-This program demonstrates a solution to the
-Star Pattern programming challenge using loops.
- */
 fun main() {
     val rows = 7 // number of rows in the pattern
     val middleRow = rows / 2 // row number where the pattern reaches its maximum width

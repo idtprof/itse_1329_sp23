@@ -1,8 +1,7 @@
-/**
+package unit02
 
-This program demonstrates a solution to the
-Cookie Calories programming challenge.
- */
+// Cookie Calories
+
 fun main() {
     val COOKIES_PER_BAG = 40 // The number of cookies per bag
     val SERVINGS_PER_BAG = 10 // The number of servings per bag
