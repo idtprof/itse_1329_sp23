@@ -1,0 +1,31 @@
+Part 1:
+
+1. Read in two numbers, num1 and num2.
+2. Multiply num1 and num2 together and store the result in a variable called product.
+3. Print out the value of the variable product.
+
+Part 2:
+
+1. Read in a number called num.
+2. If num is not equal to 5 and not equal to 6, print out "The number you entered is not a 5 or a 6."
+
+Part 3:
+
+1. Read in a number called num.
+2. If num is between 0 and 10, print out "blue".
+3. If num is between 10 and 20, print out "red".
+4. If num is between 20 and 30, print out "green".
+5. If num is not between 0 and 30, print out "Not a correct color option."
+
+Part 4:
+
+1. For each number n between 1 and 100 (inclusive):
+2. If n is a multiple of 5, print out n.
+
+Part 5:
+
+1. Read in a number called stopping_point.
+2. Initialize a variable called count to 0.
+3. For each number n between 1 and stopping_point (inclusive):
+4. If n is even, increment count by 1.
+5. Print out the value of count.
