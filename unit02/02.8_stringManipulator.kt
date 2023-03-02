@@ -1,5 +1,4 @@
-// String Manipulator
-
+// Strin Manipulator
 fun main() {
     var city: String // To hold user input
 
