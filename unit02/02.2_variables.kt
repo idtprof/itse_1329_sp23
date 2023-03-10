@@ -20,7 +20,8 @@ fun main() {
     answer += 10
     answer *= 10
     answer = answer shr 3 // Use right shift to divide by 8 (2^3)
-    print(answer)
+    println(answer)
+
     // The final value of answer should be 1 + 10 = 11, times 10 = 110, divided by 8 = 13.
 }
 
