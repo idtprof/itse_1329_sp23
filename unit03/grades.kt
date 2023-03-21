@@ -1,28 +1,9 @@
-fun main() {
-
-
-    val weight: Int
-    val height: Int
-    val bmi: Double
-
-
-    print("Enter your weight (in pounds): ")
-    weight = 140
-    print("Enter your height (in inches): ")
-    height = 5
-
-
-    bmi = (weight * 703 / (height * height)).toDouble()
-
-
-    if (bmi < 18.5) {
-        println("You are underweight")
-    } else if (bmi > 25) {
-        println("You are overweight")
-    } else {
-        println("You are just right")
-    }
-
-
-    println("Your bmi is:$bmi")
+fun main(args : Array<String>) {
+    print("Enter the number of checks you've written per month to display monthly fee: ")
+    var input = readLine()!!
+    var checks: Int = input.toInt()
+    if(checks < 20){println(checks * .10 + 10) }
+    else if(checks in 21..38){ println(checks * .08 + 10) }
+    else if(checks in 39..59){ println(checks * .06 + 10) }
+    else{ println(checks * .04 + 10) }
 }
