@@ -8,6 +8,6 @@ fun main() {
 }
 
 // Pseudocode:
-// The program defines a function called "unit02.main" that takes an array of strings as input.
+// The program defines a function called "unit02.unit05.main" that takes an array of strings as input.
 // The function prints the string "Hello World!" (and others) to the console.
 // This is a simple program that outputs a greeting message to the user.

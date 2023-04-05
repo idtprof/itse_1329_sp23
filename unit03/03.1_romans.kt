@@ -8,17 +8,29 @@ fun main() {
     number = readLine()!!.toInt()
 
     // Display the Roman numeral.
-    when (number) {
-        1 -> println("I")
-        2 -> println("II")
-        3 -> println("III")
-        4 -> println("IV")
-        5 -> println("V")
-        6 -> println("VI")
-        7 -> println("VII")
-        8 -> println("VIII")
-        9 -> println("IX")
-        10 -> println("X")
-        else -> println("Invalid number.")
+
+    if (number == 1) {
+        print("The Roman numeral is I")
+    } else if (number == 2) {
+        print("The Roman numeral is II")
+    } else if (number == 3) {
+        print("The Roman numeral is III")
+    } else if (number == 4) {
+        print("The Roman numeral is IV")
+    } else if (number == 5) {
+        print("The Roman numeral is V")
+    } else if (number == 6) {
+        print("The Roman numeral is VI")
+    } else if (number == 7) {
+        print("The Roman numeral is VII")
+    } else if (number == 8) {
+        print("The Roman numeral is VII")
+    } else if (number == 9) {
+        print("The Roman numeral is IX")
+    } else if (number == 10) {
+        print("The Roman numeral is 10")
     }
+
+
+
 }
