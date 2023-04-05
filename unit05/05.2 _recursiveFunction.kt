@@ -1,3 +1,5 @@
+package unit05
+
 fun fibonacci(number: Int): Int {
     if (number <= 0) {
         return 0
@@ -8,7 +10,9 @@ fun fibonacci(number: Int): Int {
     }
 }
 
-// call the fibonacci function for numbers from 1 to 10 and print the result
-for (i in 1..10) {
-    println("Fibonacci($i) = ${fibonacci(i)}")
+fun main() {
+    // call the fibonacci function for numbers from 1 to 10 and print the result
+    for (i in 1..10) {
+        println("Fibonacci($i) = ${fibonacci(i)}")
+    }
 }
